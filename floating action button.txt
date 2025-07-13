@@ -1,0 +1,1 @@
+export default function FloatingActionButton() { return ( <button style={{ backgroundColor: '#007A5A' }} className="fixed bottom-6 right-6 w-14 h-14 rounded-full bg-green-600 shadow-lg flex items-center justify-center text-white text-xl font-bold z-20 transition hover:scale-110" > 💬 </button> ); }

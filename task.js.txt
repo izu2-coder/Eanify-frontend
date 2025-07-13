@@ -1,0 +1,1 @@
+export default function handler(req, res) { const tasks = [ { id: 1, title: 'Complete Survey', reward: '₦500' }, { id: 2, title: 'Share Post', reward: '₦300' }, { id: 3, title: 'Install App', reward: '₦700' }, { id: 4, title: 'Refer Friend', reward: '₦10K' }, { id: 5, title: 'Rate Product', reward: '₦600' }, ]; res.status(200).json({ tasks }); }

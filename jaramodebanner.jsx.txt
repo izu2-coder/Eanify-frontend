@@ -1,0 +1,1 @@
+export default function JaraModeBanner({ isActive, onClick }) { return ( <div onClick={onClick} style={{ backgroundColor: isActive ? '#E32522' : '#FCD20C', color: isActive ? 'white' : 'black' }} className="text-center py-2 text-sm font-bold cursor-pointer" > {isActive ? '🔥 JARA MODE ACTIVATED 🔥' : '🎉 Activate Jara Mode for extra rewards!'} </div> ); }
