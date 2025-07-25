@@ -101,4 +101,18 @@ export default function Home() {
         ))} 
         </div> 
       ) : (
-        <p className="text-center text-gray-500">Loading tasks...</p> )} </div> )} {activeTab === 'Marketplace' && ( <div className="space-y-4"> <h3 className="text-xl font-bold text-gray-800">Skill Shops & Services</h3> <p className="text-center text-gray-500">Coming soon...</p> </div> )} {activeTab === 'Learning' && ( <div className="space-y-4"> <h3 className="text-xl font-bold text-gray-800">Affordable Tech & Marketing Courses</h3> <p className="text-center text-gray-500">Coming soon...</p> </div> )} </main> {/* User Dashboard Section */} <section className="bg-gray-50 py-6 px-4"> <h3 className="text-xl font-bold mb-4 text-gray-800">Your Dashboard</h3> <div className="grid grid-cols-3 gap-4"> <div className="bg-white p-3 rounded-lg shadow text-center"> <div className="text-2xl font-bold text-green-600">₦32K</div> <div className="text-sm text-gray-500">Total Earnings</div> </div> <div className="bg-white p-3 rounded-lg shadow text-center"> <div className="text-2xl font-bold text-blue-600">3</div> <div className="text-sm text-gray-500">Certificates</div> </div> <div className="bg-white p-3 rounded-lg shadow text-center"> <div className="text-2xl font-bold text-purple-600">AI Coach</div> <div className="text-sm text-gray-500">Ready</div> </div> </div> </section> {/* Footer */} <footer className="bg-white border-t border-gray-200 p-4 text-center text-sm text-gray-500"> <p>© 2025 earnify • Empowering hustlers across Nigeria • Lagos | Abuja | Port Harcourt</p> </footer> {/* Floating Action Button */} <button style={{ backgroundColor: '#007A5A' }} className="fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg flex items-center justify-center text-white text-xl font-bold z-20 transition-transform hover:scale-110" > 💬 </button> </div> ); }
+        <p className="text-center text-gray-500">Loading tasks...</p> 
+      )} 
+      </div> 
+    )} 
+        
+        {activeTab === 'Marketplace' && ( <div className="space-y-4"> <h3 className="text-xl font-bold text-gray-800">Skill Shops & Services</h3> 
+          <p className="text-center text-gray-500">Coming soon...</p> </div> )} {activeTab === 'Learning' && ( <div className="space-y-4"> <h3 className="text-xl font-bold text-gray-800">Affordable Tech & Marketing Courses</h3> <p className="text-center text-gray-500">Coming soon...</p> </div> 
+                                                                                                             )} 
+      </main> {/* User Dashboard Section */} <section className="bg-gray-50 py-6 px-4"> <h3 className="text-xl font-bold mb-4 text-gray-800">Your Dashboard</h3> <div className="grid grid-cols-3 gap-4"> <div className="bg-white p-3 rounded-lg shadow text-center"> <div className="text-2xl font-bold text-green-600">₦32K</div> <div className="text-sm text-gray-500">Total Earnings</div> </div> <div className="bg-white p-3 rounded-lg shadow text-center"> <div className="text-2xl font-bold text-blue-600">3</div> <div className="text-sm text-gray-500">Certificates</div> </div> <div className="bg-white p-3 rounded-lg shadow text-center"> <div className="text-2xl font-bold text-purple-600">AI Coach</div> <div className="text-sm text-gray-500">Ready</div> </div> </div> </section>
+      
+      {/* Footer */}
+      <footer className="bg-white border-t border-gray-200 p-4 text-center text-sm text-gray-500">
+        <p>© 2025 earnify • Learning Doing and Earning across • Lagos | Abuja | Port Harcourt</p>
+      </footer> {/* Floating Action Button */} <button style={{ backgroundColor: '#007A5A' }} className="fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg flex items-center justify-center text-white text-xl font-bold z-20 transition-transform hover:scale-110"
+                                                > 💬 </button> </div> ); }
